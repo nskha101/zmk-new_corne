@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-option$$
   - A
   - S
   - D
@@ -34,22 +34,22 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - PLAY PAUSE
   - $$mdi:arrow-down-bold$$
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', h: Fn}
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PLAY PAUSE
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -62,7 +62,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-next$$
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -77,7 +77,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - HOME
   - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PREVIOUS
   - RGB OFF
   - RGB ON
   - {t: '$$mdi:transfer$$', type: trans}
@@ -96,7 +96,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -142,9 +142,9 @@ layers:
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '&td0', type: held}
+  - '&td0'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -188,10 +188,10 @@ layers:
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - SCROLLLOCK
-  - PAUSE BREAK
+  - {t: PAUSE BREAK, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
